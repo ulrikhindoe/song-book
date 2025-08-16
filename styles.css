@@ -28,7 +28,7 @@ body::before {
   white-space: pre-line;
 }
 #lyrics p {
-  font-size: 1.0rem;
+  font-size: 0.9rem;
 }
 .list-group-item {
   font-size: 1.1rem;
