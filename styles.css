@@ -29,6 +29,7 @@ body::before {
 }
 #lyrics p {
   font-size: 0.9rem;
+  font-weight: 600;
 }
 .list-group-item {
   font-size: 1.1rem;

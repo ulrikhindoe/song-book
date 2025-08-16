@@ -32,4 +32,4 @@ Each song is stored in a Markdown file inside a folder named `songs`. The Markdo
 - Include buttons on the top and in the bommom to return to the song list.
 - Swiping right should also return to the song list.
 - Make the song title and versions in black text.
-- Make the font-size of lyrics 0.9rem
+- Make the font-size of lyrics 0.9rem, and the font-weight: 600
