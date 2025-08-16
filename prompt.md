@@ -6,12 +6,13 @@ Create an application called **Cancioneiro de Forró** that displays a collectio
 Each song is stored in a Markdown file inside a folder named `songs`. The Markdown format is:
 
 - The first line is a level 1 header (`#`) with the song title.
-- Each verse is separated by a blank line.
-- Each line of a verse starts with `> `.
+- Each verse is separated by a blank line
 
 ## General Requirements
 
 - All text shown to users must be in **Portuguese**.
+- All code and comments in the code must be in English
+- Create a Node script that I can run myself to create a json file with the files names of the songs. Use the result json to get the list of songs. 
 - Use Bootstrap for responsive design. Link to:
   - `bootstrap.min.css`
   - `bootstrap.bundle.min.js`
