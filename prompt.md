@@ -7,6 +7,7 @@ Each song is stored in a Markdown file inside a folder named `songs`. The Markdo
 
 - The first line is a level 1 header (`#`) with the song title.
 - Each verse is separated by a blank line
+- When rendered as HTML the line endings in the verses must be rendered as br elements.
 
 ## General Requirements
 
@@ -28,5 +29,5 @@ Each song is stored in a Markdown file inside a folder named `songs`. The Markdo
 ### `song.html`
 - Page title: the song's name.
 - Show the song lyrics, formatted.
-- Include a button to return to the song list.
+- Include buttons on the top and in the bommom to return to the song list.
 - Swiping left should also return to the song list.
