@@ -30,4 +30,5 @@ Each song is stored in a Markdown file inside a folder named `songs`. The Markdo
 - Page title: the song's name.
 - Show the song lyrics, formatted.
 - Include buttons on the top and in the bommom to return to the song list.
-- Swiping left should also return to the song list.
+- Swiping right should also return to the song list.
+- Make the song title and versions in black text.
