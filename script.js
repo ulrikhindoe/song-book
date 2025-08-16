@@ -69,17 +69,25 @@ async function renderSongLyrics() {
   [backTop, backBottom].forEach(btn => {
     if (btn) btn.onclick = () => window.location.href = 'index.html';
   });
-  // Swipe right to go back
+  // Swipe right to go back (ignore multi-touch gestures)
   let touchStartX = null;
+  let touchStartCount = 0;
   document.body.addEventListener('touchstart', e => {
-    if (e.touches.length === 1) touchStartX = e.touches[0].clientX;
+    if (e.touches.length === 1) {
+      touchStartX = e.touches[0].clientX;
+      touchStartCount = 1;
+    } else {
+      touchStartX = null;
+      touchStartCount = e.touches.length;
+    }
   });
   document.body.addEventListener('touchend', e => {
-    if (touchStartX !== null && e.changedTouches.length === 1) {
+    if (touchStartX !== null && touchStartCount === 1 && e.changedTouches.length === 1) {
       const dx = e.changedTouches[0].clientX - touchStartX;
       if (dx > 50) window.location.href = 'index.html';
-      touchStartX = null;
     }
+    touchStartX = null;
+    touchStartCount = 0;
   });
 }
 
