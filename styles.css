@@ -31,6 +31,13 @@ body::before {
   font-size: 0.9rem;
   font-weight: 600;
 }
+
+.list-group-item {
+  font-size: 1.1rem;
+  color: black;
+  background: rgba(255,255,255,0.7) !important;
+  border: 1px solid #ddd;
+}
 .list-group-item {
   font-size: 1.1rem;
 }

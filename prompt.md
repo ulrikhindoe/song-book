@@ -1,7 +1,7 @@
 
 # Application Requirements
 
-Create an application called **Cancioneiro de Forró** that displays a collection of song lyrics for sing-alongs. The project should include four main files: `index.html`, `song.html`, `script.js`, and `styles.css`.
+Create an application called **Vem cantar Forró** that displays a collection of song lyrics for sing-alongs. The project should include four main files: `index.html`, `song.html`, `script.js`, and `styles.css`.
 
 Each song is stored in a Markdown file inside a folder named `songs`. The Markdown format is:
 
@@ -22,9 +22,10 @@ Each song is stored in a Markdown file inside a folder named `songs`. The Markdo
 ## Page Details
 
 ### `index.html`
-- Page title: "Cancioneiro de Forró"
+- Page title: "Vem cantar Forró!"
 - Display a list of all songs, sorted alphabetically.
 - Each song is a link to its lyrics page.
+- Make the button for each song slightly transparent so the backgrounc can be seen.
 
 ### `song.html`
 - Page title: the song's name.
