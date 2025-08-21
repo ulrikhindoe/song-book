@@ -1,4 +1,4 @@
-# Xote das Meninas
+# Xote das meninas
 
 Mandacaru quando flora na seca
 É o sinal que a chuva chega no sertão
@@ -10,13 +10,13 @@ Vestido bem cintado não quer mais vestir timão...
 Ela só quer
 Só pensa em namorar
 Ela só quer
-Só pensa em namorar...
+Só pensa em namorar
 
 De manhã cedo já tá pintada
 Só vive suspirando sonhando acordada
 O pai leva ao dotô a filha adoentada
 Não come, nem estuda
-Não dorme, e nem quer nada...
+Não dorme, e nem quer nada
 
 _Refrão_
 

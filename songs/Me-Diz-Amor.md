@@ -1,4 +1,4 @@
-# Me Diz Amor
+# Me diz amor
 
 Me diz amor como é que vai ficar
 Meu coração

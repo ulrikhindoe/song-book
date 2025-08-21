@@ -25,3 +25,7 @@ node generate-songs-json.js
 ```
 
 Then commit the changes and push to Github.
+
+## Run locally
+
+`python3 -m http.server`

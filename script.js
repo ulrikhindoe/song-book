@@ -7,6 +7,15 @@ async function fetchSongsList() {
   return res.json();
 }
 
+// Load marked.js Markdown parser
+function loadMarked(callback) {
+  if (window.marked) return callback();
+  const script = document.createElement('script');
+  script.src = 'https://cdn.jsdelivr.net/npm/marked/marked.min.js';
+  script.onload = callback;
+  document.head.appendChild(script);
+}
+
 // Helper to fetch Markdown and parse
 async function fetchSongMarkdown(filename) {
   const res = await fetch(`songs/${filename}`);
@@ -55,14 +64,23 @@ async function renderSongLyrics() {
   const songFile = params.get('song');
   if (!songFile) return;
   const md = await fetchSongMarkdown(songFile);
-  const { title, verses } = parseMarkdown(md);
-  document.title = title;
-  const titleHeader = document.getElementById('song-title-header');
-  if (titleHeader) titleHeader.textContent = title;
-  const lyricsElem = document.getElementById('lyrics');
-  if (lyricsElem) {
-    lyricsElem.innerHTML = verses.map(v => `<p style='color:black;'>${v}</p>`).join('');
-  }
+  loadMarked(() => {
+    // Use marked to parse Markdown
+    // Remove first line (title) from Markdown before rendering lyrics
+    const mdLines = md.split('\n');
+    const titleMatch = mdLines[0].match(/^#\s*(.*)/);
+    const title = titleMatch ? titleMatch[1].trim() : '';
+    document.title = title;
+    const titleHeader = document.getElementById('song-title-header');
+    if (titleHeader) titleHeader.textContent = title;
+    const lyricsElem = document.getElementById('lyrics');
+    if (lyricsElem) {
+      const lyricsMd = mdLines.slice(1).join('\n');
+      const html = marked.parse(lyricsMd);
+      lyricsElem.innerHTML = html;
+  // Styling is now handled in styles.css
+    }
+  });
   // Set up navigation buttons
   const backTop = document.getElementById('back-top');
   const backBottom = document.getElementById('back-bottom');

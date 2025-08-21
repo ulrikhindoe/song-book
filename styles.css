@@ -30,6 +30,7 @@ body::before {
 #lyrics p {
   font-size: 0.9rem;
   font-weight: 600;
+  margin-block-end: 0;
 }
 
 .list-group-item {
