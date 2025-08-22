@@ -1,4 +1,4 @@
-# Sanfona Sentida
+# Sanfona sentida
 
 Vem amor, vem cantar
 Pois meus olhos ficam querendo chorar
