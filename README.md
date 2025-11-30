@@ -29,3 +29,7 @@ Then commit the changes and push to Github.
 ## Run locally
 
 `python3 -m http.server`
+
+## Hosted on Github pages
+
+https://ulrikhindoe.github.io/song-book
