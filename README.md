@@ -33,3 +33,7 @@ Then commit the changes and push to Github.
 ## Hosted on Github pages
 
 https://ulrikhindoe.github.io/song-book
+
+QR code that links to the site
+
+<img src="qr-code.png" alt="QR code" width="200" />
