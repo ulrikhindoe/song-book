@@ -7,7 +7,7 @@ Sobra torno na parede, amor pra dar e vender
 
 Na minha casa toda hora é hora
 A gente ri, a gente chora, a gente se diverte
-Nesse flerte, você botando as unhas de fora
+Nesse flerte, você monstra as unhas de fora
 Nosso amor não demora e logo acontece
 
 Pode vir de mala e cuia, amor
