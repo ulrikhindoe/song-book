@@ -7,10 +7,10 @@ Sobra torno na parede, amor pra dar e vender
 
 Na minha casa toda hora é hora
 A gente ri, a gente chora, a gente se diverte
-Nesse flerte, você monstra as unhas de fora
+Nesse flerte, você monstra nas unhas de fora
 Nosso amor não demora e logo acontece
 
 Pode vir de mala e cuia, amor
 Que eu não vou tá nem aí pro povo
 Nosso amor tá cobiçado
-Mas não vai ser maltratado, por ninguém de novo
+E não vai ser maltratado, por ninguém de novo
